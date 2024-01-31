@@ -23,8 +23,6 @@ app.use(express.json());
 
 const { BigQuery } = require('@google-cloud/bigquery');
 
-const { MetricServiceClient } = require('@google-cloud/monitoring');
-
 
 // Create a client
 
